@@ -3,7 +3,7 @@ RUN apt-get update -y
 RUN apt-get install -y ncftp
 RUN apt-get install -y ruby bundler
 RUN apt-get install -y nodejs npm
-RUN apt-get install -y php7.0-cli
+RUN apt-get install -y php7.2-cli
 RUN apt-get install -y curl
 RUN apt-get install -y jekyll
 RUN apt-get install -y default-jre-headless
