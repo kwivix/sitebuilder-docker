@@ -1,4 +1,5 @@
 FROM ubuntu
+RUN DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -y
 RUN apt-get install -y ncftp
 RUN apt-get install -y ruby bundler
